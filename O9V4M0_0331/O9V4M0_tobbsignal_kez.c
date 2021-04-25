@@ -10,7 +10,7 @@ int main(){
 signal(SIGINT, handleSignal);
 signal(SIGQUIT, handleSignal);
 for (int i=0; i<10; i++){
-	printf("Varok...\n");
+	printf("Varok\n");
 	pause();
 }
 return 0;
@@ -27,7 +27,7 @@ switch(sig){
 	case 2: {
         strcpy(desc, "Interrupt Signal");
         signal(SIGINT, SIG_DFL);
-        printf("\nA CTRL + C most már ki fogja léptetni a programból!");
+        printf("\nA CTRL + C ki fogja lÃ©ptetni a programbÃ³l!");
         break;
 	}
 
