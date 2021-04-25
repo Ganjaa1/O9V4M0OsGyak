@@ -13,7 +13,7 @@ int main(){
 	for(i = 1; i<8; i++){
 	alarm(sec);
 	signal(SIGALRM, do_nothing);
-	printf("%d varok, de meddig?\n", i);
+	printf("%d varok\n", i);
 	pause();
 	}
 return 0;
