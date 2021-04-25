@@ -6,7 +6,7 @@
 int main(int argc, char **argv){
 int pid;
 if (argc<1){
-	perror("Nincs kinek adni alarmot!");
+	perror("Nincs minek adni alarmot!");
 	exit(1);
 }
 pid = atoi(argv[1]);
